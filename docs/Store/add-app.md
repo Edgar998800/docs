@@ -16,19 +16,19 @@ Read the schema below, **BEFORE** adding any game/app element into the `store.js
 
 ```json
 {
-  "name": "Minecraft", // unique name (check if it has been used already in the file)
-  "icon": "https://example.com/minecraft.png", // logo image, preferrably 1:1 and less than 128px of width
+  "name": "GTA V", // unique name (check if it has been used already in the file)
+  "icon": "content://media/external/downloads/3409", // logo image, preferrably 1:1 and less than 128px of width
   "type": "game", // game or app
   "data": {
     "type": "IFrame", // type currently supports IFrame only
-    "url": "https://classic.minecraft.net", // url of the app and make sure they accept Iframe
+    "url": "content://media/external/downloads/3408", // url of the app and make sure they accept Iframe
     "gallery": [
       // three or more images for gallery view in store app
-      "https://www.minecraft.net/content/dam/games/minecraft/key-art/CavesandCliffsPt1-dotNET-HomepagePromo-600x360.png",
-      "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
-      "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
+      "content://media/external/downloads/3406",
+      "content://media/external/downloads/3410",
+      "content://media/external/downloads/3410"
     ],
-    "desc": "Minecraft is a sandbox construction video game ...", // description for store app
+    "desc": "Grand Theft Auto super video game ...", // description for store app
     "feat": "1.1 Combat changes.\n1.2 Fletching table functionality.", // features for store app
     "invert": true // when true it forces dark theme for game/app window, default is false.
   }
